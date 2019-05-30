@@ -1,10 +1,11 @@
 {
   "name": "node-express-typescript",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start:default": "node ./bin/www",
     "tsc": "tsc",
+    "start:dev": "ts-node-dev --respawn --transpileOnly ./lib/app.ts",
     "start:prod": "tsc && node ./build/app.js"
   },
   "dependencies": {
@@ -15,6 +16,7 @@
     "express": "^4.16.4",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
+    "ts-node-dev": "^1.0.0-pre.39",
     "typescript": "^3.5.1"
   }
 }
