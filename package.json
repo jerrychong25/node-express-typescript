@@ -16,7 +16,7 @@
     "express": "^4.18.2",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "ts-node-dev": "^1.0.0-pre.39",
+    "ts-node-dev": "^1.1.8",
     "typescript": "^3.5.1"
   }
 }
